@@ -1,0 +1,7 @@
+demo_export_data.export_node:
+  path: '/export/nodedata'
+  defaults:
+    _form: '\Drupal\demo_export_data\Form\ExportDataForm'
+    _title: 'Export Content'
+  requirements:
+    _permission: 'Administer content'
